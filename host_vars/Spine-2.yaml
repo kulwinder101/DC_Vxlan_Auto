@@ -1,0 +1,17 @@
+---
+
+loopback_zero: 2.2.2.2
+
+OSPF:
+    interfaces:
+        - Ethernet1/1
+        - Ethernet1/2
+        - Ethernet1/3
+        - Ethernet1/4
+
+BGP:
+    neighbors:
+        - 11.11.11.11
+        - 22.22.22.22
+        - 33.33.33.33
+        - 44.44.44.44
