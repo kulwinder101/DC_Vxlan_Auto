@@ -1,0 +1,55 @@
+---
+
+Spine-1:
+    username: "admin"
+    password: "cisco@123"
+    hostname: 192.168.87.11
+    groups:
+        - cisco_group
+    data:
+        layer: Spine
+ 
+Spine-2:
+    username: "admin"
+    password: "cisco@123"
+    hostname: 192.168.87.12
+    groups:
+        - cisco_group
+    data:
+        layer: Spine
+
+Leaf-1:
+    username: "admin"
+    password: "cisco@123"
+    hostname: 192.168.87.21
+    groups:
+        - cisco_group
+    data:
+        layer: Leaf
+
+Leaf-2:
+    username: "admin"
+    password: "cisco@123"
+    hostname: 192.168.87.22
+    groups:
+        - cisco_group
+    data:
+        layer: Leaf
+
+Leaf-3:
+    username: "admin"
+    password: "cisco@123"
+    hostname: 192.168.87.23
+    groups:
+        - cisco_group
+    data:
+        layer: Leaf
+
+Leaf-4:
+    username: "admin"
+    password: "cisco@123"
+    hostname: 192.168.87.24
+    groups:
+        - cisco_group
+    data:
+        layer: Leaf
